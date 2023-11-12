@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .section {
+            background-color: black;
+            border: 1px solid white
+        }
+        .rectangle1 {
+            width: 32%;
+            height: 100px;
+            margin: 5px;
+            display: inline-block;
+            justify-content: space-around;
+            flex-wrap: nowrap;
+            /* border: 1px solid red; */
+        }
+
+        .red {
+            background-color: red;
+        }
+        .rectangle2 {
+            width: 99%;
+            height: 50px;
+            margin: 3px;
+            justify-content: space-around;
+            display: inline-block;
+            /* border-radius: 2px solid white; */
+            
+        }
+        .green {
+            background-color: green;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+        .rectangle3 {
+            width: 1100px;
+            flex-wrap: nowrap;
+            height: 50px;
+            margin: 5px;
+            display: inline-block;
+            /* border: 1px solid white */
+        }
+        .yellow {
+            background-color: yellow;
+            width: 33%;
+            
+        }
+        .rectangle3.red {
+            background-color: red;
+            width: 65%;
+        }
+    </style>
+    <title>Colorful Rectangles</title>
+</head>
+<body>
+    <div class="section">
+        <div class="rectangle1 red"></div>
+        <div class="rectangle1 red"></div>
+        <div class="rectangle1 red"></div>
+    </div>
+    <div class="section">
+        <div class="rectangle2 green"></div>
+        <div class="rectangle2 blue"></div>
+        <div class="rectangle2 green"></div>
+        <div class="rectangle2 blue"></div>
+        <div class="rectangle2 green"></div>
+    </div>
+    <div class="section">
+        <div class="rectangle3 red"></div>
+        <div class="rectangle3 yellow"></div>
+    </div>
+</body>
+</html>
